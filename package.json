@@ -1,0 +1,20 @@
+{
+  "name": "topdrives-bot2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.6.0",
+    "https": "^1.0.0",
+    "parse": "^3.5.0",
+    "puppeteer": "^19.3.0"
+  },
+  "engines": {
+    "node": "16.x"
+  }
+}
