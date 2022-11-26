@@ -83,7 +83,7 @@ dclient.once('ready', () => {
 
 dclient.on(Events.InteractionCreate, async interaction => {
 	if (!interaction.isChatInputCommand()) return;
-  if (process.env.NODE_ENV !== 'production') return;
+  // if (process.env.NODE_ENV !== 'production') return;
 
   try {
     // console.log(JSON.stringify(interaction));
@@ -94,7 +94,7 @@ dclient.on(Events.InteractionCreate, async interaction => {
         return;
       }
 
-      // await interaction.reply({ content: 'Loading...', ephemeral: false });
+      await interaction.reply({ content: 'Loading...', ephemeral: false });
       let param = Number(interaction.options._hoistedOptions[0].value);
 
 
