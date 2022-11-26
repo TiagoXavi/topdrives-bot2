@@ -1,0 +1,10 @@
+{
+  "applications": {
+    "_default": {
+      "link": "topdrives-bot2"
+    },
+    "topdrives-bot2": {
+      "applicationId": "9wzN3x6g2dZK4sYcEJ9gr2BW2mLSn4W6E1RJ1I4Y"
+    }
+  }
+}
